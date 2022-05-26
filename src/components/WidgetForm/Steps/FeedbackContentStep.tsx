@@ -16,13 +16,15 @@ export function FeedbackContentStep ({feedbackType,  onFeedbackRestartRequested}
     <header>
       <button 
       type="button" 
-      className="top-5 left-5 absolute text-zinc-400 hover:text-zinc-100"
+      className="top-4 left-4 absolute text-zinc-400 hover:text-zinc-100"
       onClick={onFeedbackRestartRequested}>
         <ArrowLeft weight="bold" className="w-4 h-4" />
       </button>
 
-      <span className="text-xl leading-6 flex items-center gap-2">Deixe seu feedback</span>  
+      <span className="text-xl leading-6 flex items-center gap-2">  
       <img src={feedbackTypeInfo.image.source} alt={feedbackTypeInfo.image.alt} />
+      </span>
+      
       <CloseButton/>
     </header>
 
@@ -32,11 +34,11 @@ export function FeedbackContentStep ({feedbackType,  onFeedbackRestartRequested}
       placeholder="Nos conte com detalhes o que está acontecendo..."
       />
 
-      <footer claasName="flex gap-2 mt-2">
+      <footer className="flex gap-2 mt-2">
         <button
         type="button"
         className="pg-2 bg-zinc-800 rounded-md border-transparent hover:bg-zinc-700 transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-zinc-900 focus:ring-brand-500">
-          <Camera className="w-6 h-6" />
+          <Camera className="w-6 h-6 text-zinc-100" />
         </button>
 
         <button
