@@ -49,8 +49,8 @@ export function WidgetForm () {
           <FeedbackTypeStep onFeedbackTypeChanged={setFeedbackType} />
        ) : (
         <FeedbackContentStep 
-        feedbackType={feedbackType} />
-        onFeedbackRestartRequested = {handleRestartFeedback}
+        feedbackType={feedbackType} 
+        onFeedbackRestartRequested = {handleRestartFeedback} />
        )}
        
        <footer className="text-xs text-neutral-400" >
