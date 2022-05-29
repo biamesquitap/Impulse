@@ -6,6 +6,7 @@ import ideaImageUrl from '../../assets/idea.svg';
 import otherImageUrl from '../../assets/other.svg';
 import { FeedbackTypeStep } from "./Steps/FeedbackTypeStep";
 import { FeedbackContentStep } from "./Steps/FeedbackContentStep";
+import { FeedbackSucessStep } from "./Steps/FeedbackSucessStep";
 
 
 export const feedbackTypes ={
