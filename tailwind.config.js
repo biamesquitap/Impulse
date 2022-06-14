@@ -14,6 +14,10 @@ module.exports = {
     },
     
 
-    plugins: [require('@tailwindcss/forms'), require('tailwind-scrollbar')]
+    plugins: [
+      tailwindcss: {},
+      autoprefixer: {},
+    require('@tailwindcss/forms'), 
+    require('tailwind-scrollbar')]
   }
 }
